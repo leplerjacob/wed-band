@@ -1,0 +1,59 @@
+/* Text */
+.text-primary {
+    color: var(--color-blue);
+}
+
+/* Button */
+.btn-primary {
+    background: var(--bg-primary);
+}
+
+.btn-primary:hover {
+    background: var(--bg-secondary);
+}
+
+/* Icons */
+.icon {
+    padding: 6.65px;
+    font-size: 10.375px;
+    width: 23.275px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+.top .social-media .fa-facebook {
+    background: #3b5998;
+}
+.top .social-media .fa-twitter {
+    background: #55ACEE;
+}
+.top .social-media .fa-pinterest {
+    background: #cb2027;
+}
+.top .social-media .fa-vimeo {
+    background: #45bbff;
+}
+.top .social-media .fa-instagram {
+    background: #125688;
+}
+
+.cases .row {
+    display: grid;
+    grid-template-rows: 250px;
+    gap: 6px;
+}
+
+.cases .column {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 6px;
+    margin: 0 6px 6px;
+}
